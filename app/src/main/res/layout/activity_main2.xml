@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E90FF"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="284dp"
+        android:layout_height="46dp"
+        android:text=""
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="85dp"
+        android:hint="Nombre"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="284dp"
+        android:layout_height="59dp"
+        android:text=""
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="140dp"
+        android:hint="Apellido Paterno"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="284dp"
+        android:layout_height="57dp"
+        android:text=""
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="199dp"
+        android:hint="Apellido materno"/>
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="201dp"
+        android:layout_height="205dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/moto"
+        tools:layout_editor_absoluteY="510dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="102dp"
+        android:layout_height="132dp"
+        app:srcCompat="@drawable/lobo"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="-25dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear Cuenta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="586dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="305dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:text=""
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="311dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:hint="Confirma contraseña"
+        android:inputType="textPassword"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="459dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="282dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="265dp"
+        android:hint="Correo"/>
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="325dp"
+        android:hint="Confirma correo"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

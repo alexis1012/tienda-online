@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity14"
+    android:background="@drawable/deportiva">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="259dp"
+        tools:layout_editor_absoluteY="235dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView25"
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/buho" />
+
+                <Button
+                    android:id="@+id/buho"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:text="FOCO AUXILIAR TIPO BUHO $75"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/farokit"
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/foco_led" />
+
+                <Button
+                    android:id="@+id/fococ6"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:text="Foco led C6 $220"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/foco_s8"
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/foco_led_s8" />
+
+                <Button
+                    android:id="@+id/focos8"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:text="Kit Faros Foco Led C6 $220"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/multi_led"
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/multiled" />
+
+                <Button
+                    android:id="@+id/tiramultiled"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:text="Tira Led Multicolor Rgb $230"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/pellizco_led"
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/ledpellizco" />
+
+                <Button
+                    android:id="@+id/led_pellizco"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:text="Pellizco Led Estrobo $55"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/direccional"
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/neon" />
+
+                <Button
+                    android:id="@+id/direneon"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:text="Direccionales Focos Faros Led $175"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/direccional1"
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/led_dire" />
+
+                <Button
+                    android:id="@+id/direled"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:text="Direccionales Led $150"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/direccional2"
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/ilumina" />
+
+                <Button
+                    android:id="@+id/direilu"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:text="Direccionales Led Doble Iluminación $300"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/tira"
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/led_tira" />
+
+                <Button
+                    android:id="@+id/tiraled"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:text="Tira Led $150"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/multi_led2"
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/multiled" />
+
+                <Button
+                    android:id="@+id/multipelliz"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:text="Control Remoto Led Pellizco $70"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ojo"
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/ojoangel" />
+
+                <Button
+                    android:id="@+id/ojoangel"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:text="Faros Ojo Angel Led  $700"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

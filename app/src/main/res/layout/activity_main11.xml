@@ -4,33 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1E90FF"
+    android:background="@drawable/deportiva"
     tools:context=".MainActivity11">
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="334dp"
-        android:layout_height="43dp"
+        android:layout_width="343dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
         android:enabled="false"
-        android:text="Tira Led Multicolor Rgb"
-        android:textColor="@android:color/white"
+        android:fontFamily="@font/archivo_black"
+        android:text="Tira Led Multicolor Rgb $230"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="30dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView12"
         android:layout_width="250dp"
         android:layout_height="248dp"
-        app:srcCompat="@drawable/Tira_Led_Multicolor"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="82dp" />
+        android:layout_marginTop="96dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.596"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/multiled" />
 
     <Button
         android:id="@+id/button12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="368dp"
         android:text="Añadir a compra"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="350dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="119dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="260dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lobo" />
 </androidx.constraintlayout.widget.ConstraintLayout>

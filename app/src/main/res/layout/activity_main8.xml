@@ -4,34 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1E90FF"
+    android:background="@drawable/deportiva"
     tools:context=".MainActivity8">
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="295dp"
-        android:layout_height="43dp"
+        android:layout_width="385dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="16dp"
         android:enabled="false"
-        android:text="FOCO AUXILIAR TIPO BUHO"
-        android:textColor="@android:color/white"
+        android:fontFamily="@font/archivo_black"
+        android:text="FOCO AUXILIAR TIPO BUHO $75"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/Faros_Auxiliares"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="81dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
         android:text="Añadir a compra"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="336dp" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.899"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/buho" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="195dp"
+        android:layout_height="194dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lobo" />
 </androidx.constraintlayout.widget.ConstraintLayout>

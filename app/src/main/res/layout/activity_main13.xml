@@ -4,33 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1E90FF"
+    android:background="@drawable/deportiva"
     tools:context=".MainActivity13">
 
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="356dp"
-        android:layout_height="75dp"
+        android:layout_width="393dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="16dp"
         android:enabled="false"
-        android:text="Kit Focos Led 4 Caras Con Balastra "
-        android:textColor="@android:color/white"
+        android:fontFamily="@font/archivo_black"
+        android:text="Kit Focos Led 4 Caras Con Balastra $550"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView14"
         android:layout_width="348dp"
         android:layout_height="313dp"
-        app:srcCompat="@drawable/foco_led_s8"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="103dp" />
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView14"
+        app:srcCompat="@drawable/foco_led_s8" />
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/ima"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="448dp"
         android:text="Añadir a compra"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="464dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.364"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="151dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="340dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lobo" />
 </androidx.constraintlayout.widget.ConstraintLayout>

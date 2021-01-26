@@ -52,4 +52,38 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/lobo" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Caracteristicas"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="406dp"
+        android:layout_height="341dp"
+        android:layout_marginTop="536dp"
+        android:text="55 watts por foco con tablilla con 12 diodos grandes por tablilla
+\n• 300% más de iluminación
+\n• A prueba de agua y vibraciones.
+\n• Emiten poco calor.
+\n• No generan ruido.
+\n• Focos led y Balastras excelente calidad
+"
+        android:textColor="@color/purple_700"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

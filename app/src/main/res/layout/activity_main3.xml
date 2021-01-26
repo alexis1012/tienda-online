@@ -52,4 +52,37 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/neon" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="304dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Descripción"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="389dp"
+        android:layout_height="305dp"
+        android:layout_marginTop="340dp"
+        android:text="100% nuevo
+NUEVA direccional azul o blanco neón, cuando pone dirección cambia a color ámbar
+Chips LED de alto brillo, bajo consumo de energía y sin estructura de filamento
+ABS nuevo plástico + material acrílico de alta transparencia garantiza su textura bien hecha
+Diseño independiente, un gran accesorio para vestir tu motocicleta.
+"
+        android:textColor="@color/purple_700"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

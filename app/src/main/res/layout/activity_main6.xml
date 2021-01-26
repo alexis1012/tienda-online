@@ -21,7 +21,7 @@
         android:id="@+id/lista"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="352dp"
+        android:layout_marginTop="316dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,5 +58,40 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/lobo" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="CARACTERISTICAS PRINCIPALES"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="391dp"
+        android:layout_height="506dp"
+        android:layout_marginTop="400dp"
+        android:text="• Tira led flexible
+\n• Con recubrimiento ip65 soporta sol lluvia humedad (solo no es sumergible en agua)
+\n• Pegamento auto adherible
+\n• Puedes recortar la tira cada 3 leds o unir varias tiras haciendo tramos largos
+\n• Ultra luminosa con chip led smd 2835 (se les conoce como hiperled)
+\n• Su voltaje es de 12v si vas a querer conectar en 110v 127v necesitas un eliminador de voltaje, nosotros también lo vendemos pregúntanos el precio
+\n• La tira es de 5 metros con 300 leds
+\n• Es de alta calidad no se pone amarilla
+"
+        android:textColor="@color/purple_700"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

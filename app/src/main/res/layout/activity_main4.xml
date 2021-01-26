@@ -52,4 +52,34 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/led_dire" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="288dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Descripción"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="365dp"
+        android:layout_height="291dp"
+        android:layout_marginTop="340dp"
+        android:text="LED( Ámbar )  secuencial delantero o trasero, Señales de giro que fluye LED, Luces direccionales del señal indicador 12V ,para locomotoras Straddle, motocicletas, Honda/Suzuki/ Yamaha /hojiao/motocicleta/todoterreno etc.
+        \nPAQUETE INCLUIDO:
+2 * Luces Direccionales
+"
+        android:textColor="@color/purple_700"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

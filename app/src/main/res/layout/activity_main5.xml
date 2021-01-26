@@ -46,9 +46,44 @@
         android:id="@+id/imageView6"
         android:layout_width="200dp"
         android:layout_height="152dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="148dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="128dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ilumina" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Descripción"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="387dp"
+        android:layout_height="415dp"
+        android:layout_marginTop="316dp"
+        android:text="PAR Direccionales de Led Iluminación Ámbar Aplicación Universal Material Flexible Iluminación ámbar y azul
+\nCuerpo Color: Negro
+\nColor Lente: Humo
+\nIluminación Principal Color: Ámbar
+\nIluminación Secundario Color: AZUL
+\nVoltaje: DC 12V
+\nTornillos Medida: 10mm
+\nIluminación Tipo: FULL LED
+\nCable LARGO: approx. 23cm (9)"
+        android:textColor="@color/purple_700"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
